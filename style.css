@@ -165,6 +165,25 @@ margin-right: 5px;
 margin-right: 30px;
 }
 
+/* upcomming match */
+
+.match-card{
+    border: 1px solid;
+    
+    width: 270px;
+height: 242px;
+text-align: center;
+padding: 50px 20px;
+line-height: 2.5;
+border-radius: 5px;
+}
+
+.match-card-image{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-bottom: 15px;
+}
 /* footer */
 footer{
     
@@ -186,4 +205,195 @@ footer h1{
 footer span{
     margin-left: 50px;
 
+}
+
+@media only screen and (min-width: 768px)  and (max-width: 1269px) {
+    .blog-container{
+        display: flex;
+        flex-direction: column;
+        margin-top: 130px;
+        
+    }
+
+    .blog-btn{
+        display: flex;
+        justify-content: space-between;
+        border: 0;
+        width: 100%;
+        height: 120px;
+        background: white;
+    border-radius: 10px;
+    }
+
+    .blog-btn button{
+        width: 250px;
+        height: 80px;
+        margin-top: 0;
+        margin-left: 0px;
+        border-radius: 10px;
+        font-weight: 500;
+    font-size: 23px;
+        
+    }
+
+    .right-container{
+    
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-gap: 24px;
+           
+    }
+    .blog-card{
+        border: 1px solid;
+        width: 270px;
+    height: 350px;
+    border-radius: 10px;
+    margin-left: 40px;
+    }
+    
+}
+
+@media only screen and (max-width: 767px) {
+    .main-container {
+   
+        margin: 0 10px;
+    }
+
+    .banner-container {
+    
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-top: 50px;
+        background: #161616;
+    border-radius: 30px;
+    }
+
+    .banner-title {
+        /* border: 1px solid black; */
+        width: 500px;
+        height: 300px;
+        margin: 60px 10px 20px 10px;
+        text-align: center;
+    }
+    .banner-title h1{
+        font-weight: 500;
+    font-size: 50px;
+    color: white;
+    line-height: 1;
+    margin-bottom: 20px;
+    }
+
+    .banner-title p{
+        
+        font-weight: 500;
+    font-size: 20px;
+    color: white;
+    margin-bottom: 30px;
+    line-height: 1.5;
+    overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap; 
+  height: 60px;
+ 
+    }
+    
+    /* .banner-title button{
+        width: 187px;
+    height: 56px;
+    font-weight: 400;
+    font-size: 20px;
+    background: #DD0000;
+    border-radius: 5px;
+    color: white;
+    border: 0;
+    } */
+    
+    .banner-image {
+        
+        width: 400px;
+        height: 400px;
+        margin: 10px 0 0 0;
+    }
+    
+    .banner-image img{
+        width: 100%;
+        height: 100%;
+    }
+    .blog-container{
+        display: flex;
+        flex-direction: column;
+        margin-top: 130px;
+        
+    }
+
+    .blog-btn{
+        
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+        border: 0;
+        width: 100%;
+        height: 320px;
+        background: white;
+        margin-bottom: 50px;
+    border-radius: 10px;
+    }
+
+    .blog-btn button{
+        width: 250px;
+        height: 80px;
+        margin-top: 0;
+        margin-left: 0px;
+        border-radius: 10px;
+        font-weight: 500;
+    font-size: 23px;
+        
+    }
+
+    .right-container{
+    
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        grid-gap: 24px;
+        
+           
+    }
+    .blog-card{
+        border: 1px solid;
+        width: 270px;
+    height: 350px;
+    border-radius: 10px;
+    margin-left: 100px;
+    }
+
+    footer{
+    
+        max-width: 100vw;
+        height: 300px;
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        background: #161616;
+        color: white;
+        margin-top: 130px;
+    }
+    
+    footer h1{
+        margin-bottom: 20px;
+    }
+    footer span{
+        margin-left: 0px;
+    
+    }
+    .footer-title{
+        display: flex;
+        flex-direction: column;
+        line-height: 2;
+        
+    }
 }
