@@ -17,7 +17,7 @@ body{
 /* main */
 .main-container {
    
-    margin: 0 100px;
+    margin: 0 80px;
 }
 
 /* banner */
@@ -32,7 +32,7 @@ border-radius: 30px;
 }
 
 .banner-title {
-    border: 1px solid black;
+    /* border: 1px solid black; */
     width: 531px;
     height: 424px;
     margin: 60px 20px 60px 60px;
@@ -76,3 +76,114 @@ border: 0;
     height: 100%;
 }
 
+/* blog */
+
+.blog-container{
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    margin-top: 130px;
+    position: relative;
+}
+
+.left-container{
+    /* border: 1px solid black; */
+   
+}
+
+.blog-btn{
+    border: 1px solid black;
+    width: 300px;
+    height: 300px;
+    background: #161616;
+border-radius: 10px;
+position: sticky;
+top: 180px;
+
+
+}
+
+.blog-btn button{
+    width: 250px;
+    height: 60px;
+    margin-top: 28px;
+    margin-left: 25px;
+    border-radius: 10px;
+    font-weight: 500;
+font-size: 20px;
+    
+}
+
+.right-container{
+    
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 24px;
+    
+    
+}
+
+.blog-card{
+    border: 1px solid;
+    width: 270px;
+height: 350px;
+border-radius: 10px;
+}
+
+.blog-image{
+    width: 270px;
+height: 180px;
+}
+.blog-image img{
+    width: 100%;
+    height: 100%;
+    border-radius: 10px 10px 0px 0px;
+}
+
+.blog-title{
+    padding: 20px;
+}
+.blog-title button{
+    width: 90px;
+height: 30px;
+font-weight: 500;
+font-size: 15px;
+border-radius: 5px;
+margin-bottom: 15px;
+}
+
+.blog-title h3{
+    margin-bottom: 20px;
+    font-weight: 500;
+font-size: 17px;
+}
+.banner-title
+
+.blog-icon-container i{
+margin-right: 5px;
+}
+.blog-icon-container span{
+margin-right: 30px;
+}
+
+/* footer */
+footer{
+    
+    max-width: 100vw;
+    height: 300px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: #161616;
+    color: white;
+    margin-top: 130px;
+}
+
+footer h1{
+    margin-bottom: 100px;
+}
+footer span{
+    margin-left: 50px;
+
+}
