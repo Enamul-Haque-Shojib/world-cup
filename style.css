@@ -61,6 +61,29 @@ body {
     border-radius: 5px;
     color: white;
     border: 0;
+
+}
+
+
+
+/* animation */
+
+.banner-title i{
+    animation-name: arrow-animation;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes arrow-animation{
+    0%{
+        transform: translate(0) scale(1); 
+    }
+    50%{
+        transform: translate(20px) scale(2);
+    }
+    100%{
+        transform: translate(0) scale(1);
+    }
 }
 
 .banner-image {
@@ -252,7 +275,7 @@ footer span {
 }
 
 .social-icon i {
-
+color: white;
     margin-top: 50px;
     margin-left: 20px;
     font-size: 25px;
@@ -513,7 +536,7 @@ footer span {
     }
 
     .social-icon i {
-
+        color: white;
         margin-top: 50px;
         margin-left: 20px;
         font-size: 25px;
@@ -771,5 +794,8 @@ footer span {
         flex-direction: column;
         line-height: 2;
 
+    }
+    .social-icon{
+        color: white;
     }
 }
